@@ -49,11 +49,7 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt APKs/JARs from 'proprietary/app'
 PRODUCT_PACKAGES += \
-    embms \
-    ims \
-    QAS_DVC_MSP_VZW \
-    VZWAPNLib \
-    vzw_msdc_api
+    QAS_DVC_MSP_VZW
 
 # Prebuilt APKs libs symlinks from 'proprietary/app'
 PRODUCT_PACKAGES += \
@@ -62,31 +58,13 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt APKs/JARs from 'proprietary/framework'
 PRODUCT_PACKAGES += \
-    cneapiclient \
-    com.quicinc.cne.api-V1.0-java \
-    com.quicinc.cne \
-    embmslibrary \
-    libhwinfo \
-    rcsimssettings \
-    vendor.qti.qcril.am-V1.0-java \
-    VerizonUnifiedSettings
+    libhwinfo
 
 # Prebuilt APKs/JARs from 'proprietary/priv-app'
 PRODUCT_PACKAGES += \
-    CNEService \
-    HotwordEnrollmentOKGoogleWCD9340 \
-    HotwordEnrollmentTGoogleWCD9340 \
-    HotwordEnrollmentXGoogleWCD9340 \
     MyVerizonServices \
-    OBDM_Permissions \
-    obdm_stub \
-    OemDmTrigger \
     QAS_DVC_MSP \
-    qcrilmsgtunnel \
-    SprintDM \
-    SprintHM \
-    VerizonAuthDialog \
-    VzwOmaTrigger
+    VerizonAuthDialog
 
 # Standalone symbolic links
 PRODUCT_PACKAGES += \
