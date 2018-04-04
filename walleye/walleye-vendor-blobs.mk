@@ -496,7 +496,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/walleye/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so:google \
     vendor/google_devices/walleye/vendor/lib64/hw/gralloc.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.msm8998.so:google \
     vendor/google_devices/walleye/vendor/lib64/hw/hwcomposer.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.msm8998.so:google \
-    vendor/google_devices/walleye/vendor/lib64/hw/lights.walleye.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.walleye.so:google \
     vendor/google_devices/walleye/vendor/lib64/hw/local_time.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/local_time.default.so:google \
     vendor/google_devices/walleye/vendor/lib64/hw/memtrack.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.msm8998.so:google \
     vendor/google_devices/walleye/vendor/lib64/hw/nfc_nci.walleye.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/nfc_nci.walleye.so:google \
@@ -778,7 +777,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/walleye/vendor/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so:google \
     vendor/google_devices/walleye/vendor/lib/hw/gralloc.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.msm8998.so:google \
     vendor/google_devices/walleye/vendor/lib/hw/hwcomposer.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.msm8998.so:google \
-    vendor/google_devices/walleye/vendor/lib/hw/lights.walleye.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.walleye.so:google \
     vendor/google_devices/walleye/vendor/lib/hw/local_time.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/local_time.default.so:google \
     vendor/google_devices/walleye/vendor/lib/hw/memtrack.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.msm8998.so:google \
     vendor/google_devices/walleye/vendor/lib/hw/nfc_nci.walleye.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.walleye.so:google \
