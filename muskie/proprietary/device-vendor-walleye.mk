@@ -286,4 +286,4 @@ PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
 # Partitions to add in AB OTA images
-AB_OTA_PARTITIONS += vendor 
+AB_OTA_PARTITIONS += vendor
