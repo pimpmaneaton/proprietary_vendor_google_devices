@@ -1,4 +1,4 @@
-# [2018-04-03] Auto-generated file, do not edit
+# [2018-05-07] Auto-generated file, do not edit
 
 $(call inherit-product, vendor/google_devices/taimen/taimen-vendor-blobs.mk)
 
