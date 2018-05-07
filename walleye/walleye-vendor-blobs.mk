@@ -1,4 +1,4 @@
-# [2018-04-04] Auto-generated file, do not edit
+# [2018-05-07] Auto-generated file, do not edit
 
 PRODUCT_COPY_FILES += \
     vendor/google_devices/walleye/proprietary/bin/ramoops:$(TARGET_COPY_OUT_SYSTEM)/bin/ramoops:google \
