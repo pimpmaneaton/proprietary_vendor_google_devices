@@ -1,4 +1,4 @@
-VERSION:302744031
+VERSION:302875103
 
 1,II,WLAN_BWA_SET_PMAC_BW: mac_id=%d, pmac_bw=%d [!WAL_EOK returned] 
 2,II,WLAN_BWA_GET_VDEV_BW: vdev_id=%d, vdev_bw=%d [>=WHAL_BW_CNT returned] 
