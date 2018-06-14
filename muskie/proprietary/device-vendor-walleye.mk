@@ -1,4 +1,4 @@
-# [2018-04-04] Auto-generated file, do not edit
+# [2018-06-13] Auto-generated file, do not edit
 
 $(call inherit-product, vendor/google_devices/walleye/walleye-vendor-blobs.mk)
 
@@ -7,27 +7,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.gfx.driver.0=com.google.pixel.wahoo.gfxdrv \
     ro.oem_unlock.pst=/dev/block/platform/soc/1da4000.ufshc/by-name/misc \
     ro.oem_unlock.pst_offset=6144
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
-    ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html \
-    ro.com.google.clientidbase=android-google \
-    ro.error.receiver.system.apps=com.google.android.gms \
-    ro.setupwizard.enterprise_mode=1 \
-    ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent \
-    ro.opa.eligible_device=true \
-    ro.storage_manager.enabled=true \
-    ro.com.google.ime.theme_id=5 \
-    ro.boot.vendor.overlay.theme=com.google.android.theme.pixel \
-    drm.service.enabled=true \
-    media.mediadrmservice.enable=true \
-    ro.setupwizard.rotation_locked=true \
-    setupwizard.enable_assist_gesture_training=true \
-    ro.setupwizard.esim_cid_ignore=00000001 \
-    setupwizard.theme=glif_v2_light \
-    ro.facelock.black_timeout=700 \
-    ro.facelock.det_timeout=2500 \
-    ro.facelock.rec_timeout=3500 \
-    ro.facelock.est_max_time=600
 
 # Prebuilt APKs/JARs from 'vendor/app'
 PRODUCT_PACKAGES += \
@@ -49,7 +28,8 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt APKs/JARs from 'proprietary/app'
 PRODUCT_PACKAGES += \
-    QAS_DVC_MSP_VZW
+    embms \
+    ims
 
 # Prebuilt APKs libs symlinks from 'proprietary/app'
 PRODUCT_PACKAGES += \
@@ -58,13 +38,19 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt APKs/JARs from 'proprietary/framework'
 PRODUCT_PACKAGES += \
-    libhwinfo
+    cneapiclient \
+    com.quicinc.cne.api-V1.0-java \
+    com.quicinc.cne \
+    embmslibrary \
+    libhwinfo \
+    rcsimssettings \
+    vendor.qti.qcril.am-V1.0-java
 
 # Prebuilt APKs/JARs from 'proprietary/priv-app'
 PRODUCT_PACKAGES += \
-    MyVerizonServices \
+    CNEService \
     QAS_DVC_MSP \
-    VerizonAuthDialog
+    qcrilmsgtunnel
 
 # Standalone symbolic links
 PRODUCT_PACKAGES += \
@@ -286,4 +272,4 @@ PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
 # Partitions to add in AB OTA images
-AB_OTA_PARTITIONS += vendor
+AB_OTA_PARTITIONS += vendor 
