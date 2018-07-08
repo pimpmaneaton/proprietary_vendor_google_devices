@@ -1,4 +1,4 @@
-# [2018-06-13] Auto-generated file, do not edit
+# [2018-07-08] Auto-generated file, do not edit
 
 PRODUCT_COPY_FILES += \
     vendor/google_devices/taimen/proprietary/bin/ramoops:$(TARGET_COPY_OUT_SYSTEM)/bin/ramoops:google \

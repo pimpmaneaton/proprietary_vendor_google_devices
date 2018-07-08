@@ -1,4 +1,4 @@
-# [2018-06-13] Auto-generated file, do not edit
+# [2018-07-08] Auto-generated file, do not edit
 
 $(call inherit-product, vendor/google_devices/taimen/taimen-vendor-blobs.mk)
 
@@ -273,5 +273,4 @@ PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
 # Partitions to add in AB OTA images
-AB_OTA_PARTITIONS += vendor 
-
+AB_OTA_PARTITIONS += vendor
