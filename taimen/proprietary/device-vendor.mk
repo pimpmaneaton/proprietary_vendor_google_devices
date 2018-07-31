@@ -13,6 +13,9 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     ModemService \
     QtiTelephonyService \
+    HotwordEnrollmentOKGoogleWCD9340 \
+    HotwordEnrollmentTGoogleWCD9340 \
+    HotwordEnrollmentXGoogleWCD9340 \
     SSRestartDetector \
     TimeService \
     wahoo_gfxdrv
