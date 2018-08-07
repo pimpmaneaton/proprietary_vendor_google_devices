@@ -11,6 +11,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/taimen/proprietary/etc/firmware/music_detector.sound_model:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/music_detector.sound_model:google \
     vendor/google_devices/taimen/proprietary/etc/permissions/com.google.android.hardwareinfo.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.android.hardwareinfo.xml:google \
     vendor/google_devices/taimen/proprietary/etc/permissions/privapp-permissions-wahoo.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-wahoo.xml:google \
+    vendor/google_devices/taimen/proprietary/etc/permissions/privapp-permissions-taimen.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-taimen.xml \
     vendor/google_devices/taimen/proprietary/etc/sysconfig/framework-sysconfig.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/framework-sysconfig.xml:google \
     vendor/google_devices/taimen/proprietary/etc/sysconfig/nexus.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/nexus.xml:google \
     vendor/google_devices/taimen/proprietary/etc/sysconfig/pixel_2017.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/pixel_2017.xml:google \

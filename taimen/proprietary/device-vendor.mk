@@ -22,6 +22,27 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt APKs/JARs from 'vendor/framework'
 PRODUCT_PACKAGES += \
+    Tycho \
+    EaselServicePrebuilt \
+    CarrierServices \
+    CarrierSetup \
+    ConnMO \
+    VerizonUnifiedSettings \
+    DCMO \
+    DMService \
+    DiagMon \
+    VZWAPNLib \
+    OBDM_Permissions \
+    OemDmTrigger \
+    SprintDM \
+    SprintHM \
+    VzwOmaTrigger \
+    VerizonAuthDialog \
+    WfcActivation \
+    obdm_stub
+
+# Prebuilt APKs/JARs from 'vendor/framework'
+PRODUCT_PACKAGES += \
     qcrilhook \
     qti-vzw-ims-internal
 
